@@ -5,10 +5,10 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 :: DEFINE the following variables where applicable to your install
 
     SET STEAMLOGIN=user password
-    SET GAMESTEAMID=233780
+    SET GAMESTEAMID=Game ID
 
-    SET GAMEPATH=C:\JEUX\Arma3
-        SET STEAMPATH=C:\JEUX\SteamCMD
+    SET GAMEPATH=Path to game
+        SET STEAMPATH=Path to steam
 
 
 :: _________________________________________________________
@@ -22,3 +22,4 @@ echo.
 echo.
 echo     Your game is now up to date
 exit
+
